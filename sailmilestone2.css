@@ -1,0 +1,163 @@
+/* color 
+background: #F5F7FA;
+#4CAF4F sign up
+
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+/* .nex-container {
+  background-color: #f5f7fa;
+} */
+.nex-container .navs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+}
+.navs {
+  background-color: #f5f7fa;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  color: #18191f;
+  font-size: 12px;
+}
+
+.navbar > a {
+  color: #18191f;
+  text-decoration: none;
+  color: #18191f;
+}
+.login {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 12px;
+}
+.login p {
+  color: #4caf4f;
+}
+.login .btn {
+  padding: 8px 12px;
+  font-size: 11px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #4caf4f;
+  border: transparent;
+}
+.hero-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  position: relative;
+  background-color: #f5f7fa;
+}
+.hero-text h1 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: Neutral/Grey;
+}
+
+.hero-text p {
+  font-size: 10px;
+  font-weight: 200;
+  color: Neutral/Grey;
+}
+.btn-2 {
+  padding: 10px 15px;
+  background-color: #4caf4f;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  font-size: 10px;
+}
+.hero-img img {
+  margin-top: 5rem;
+}
+.hero-dot {
+  position: absolute;
+  bottom: 0px;
+}
+.client {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  padding-top: 25px;
+}
+.client p {
+  font-size: 12px;
+}
+.client-img {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15px;
+}
+.manage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+/* .icon-container img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid green;
+}
+.icon-container h3 {
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.pixelgrade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pixelgrade-text h2 {
+  font-family: sans-serif;
+  color: #4d4d4d;
+}
+.pixelgrade-text p {
+  font-size: 12px;
+  color: #717171;
+}
+
+.pixelgrade-text button {
+  background-color: #4caf4f;
+  color: #f5f7fa;
+  padding: 5px 15px;
+  margin-top: 15px;
+  font-size: 12px;
+  border: none;
+}
